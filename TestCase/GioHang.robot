@@ -40,8 +40,11 @@ GH005 - Them 1 san pham vao gio hang va xoa
         ${product_search}=      GH - View product and return product name         //h6/a
         Wait and Click elements         ${btn_addtocart}
         GH - Verify product and quantily in cart         ${product_search}       quantily=1
-
+        Wait and Click elements         id=logo
+        Wait and Click elements         //*[@class="cart__remove"]
 GH006 - Them 1 san pham vao gio hang
+
+
 GH007 - Them 1 san pham vao gio hang
 GH008 - Them 1 san pham vao gio hang
 GH009 - Them 1 san pham vao gio hang
