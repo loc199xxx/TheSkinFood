@@ -15,7 +15,4 @@ Wait and Input text
         [Arguments]         ${element_lct}     ${text}     ${time_out}=15s
         WAIT UNTIL ELEMENT IS VISIBLE     ${element_lct}     ${time_out}
         input text       ${element_lct}     ${text}
-Wait and Click Link
-        [Arguments]         ${element_lct}      ${time_out}=15s
-        WAIT UNTIL ELEMENT IS VISIBLE     ${element_lct}     ${time_out}
-        click link       ${element_lct}
+

@@ -7,3 +7,5 @@ ${btn_-1}           //input[@value='-']
 
 ${title_my_cart}            //span[contains(text(),'Giỏ hàng của bạn - THẾ GIỚI SKINFOOD')]
 ${btn_cart}             id=ToggleDown
+
+${btn_update_cart}      //input[@name='update']
